@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNET_ENV": "Development",
+        "defaultEmailServerValues": "smtp.office365.com:587:jairo.assis@landofzorth.com:Ch@ves24@1"
+      }
+    }
+  }
+}

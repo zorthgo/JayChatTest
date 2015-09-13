@@ -1,0 +1,27 @@
+﻿<!Doctype html>
+<html>
+<head>
+    <style>
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="chatDiv" class="hide">
+        <form onsubmit="sendMessageFormClick(event);">
+            <div class="chatScreen"></div>
+            <br />
+            <input type="text" placeholder="message" class='inputMessage' />
+            <input type="button" id='submitButton' value="Send" onclick="sendMessage();" />
+        </form>
+    </div>
+    <div id="registrationDiv">
+        <input type="text" id="usernameTxt" placeholder="Pick a username" />
+        <input type="button" onClick="registerUser();" value="Register" />
+    </div>
+    <!-- Scripts -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="./scripts/app.js"></script>
+</body>
+</html>
